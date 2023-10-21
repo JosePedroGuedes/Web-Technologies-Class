@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="exercicio3.html">
+        Nome:<input minlength="3" type="text" name="name" placeholder="Escreva o seu nome" required />
+        <br>
+        Email:<input type="text" name="username" placeholder="Digite o seu email" required />
+        <br>
+        Idade:<input type="text" idade="idade" requiered />
+        <br>
+        Data de Nascimento:<input type="datetime-local" name="bdayTime" />
+        <br>
+        <label for="nacionalidade">Nacionalidade:</label>
+        <select name="nacionalidade" id="nacionalidade">
+            <option value="portuguesa">Portuguesa</option>
+            <option value="francesa">Francesa</option>
+            <option value="espanhola">Espanhola</option>
+            <option value="alemão/alemâ">Alemão/Alemão</option>
+            <option value="angolano">Angolano</option>
+            <option value="etc...">etc...</option>
+        </select>
+        <br>
+        Palavra-Passe:<input pattern="^(?=.*[a-z])(?=.*[A-Z])$" minlength="8" type="password" name="palavra-passe" required />
+        <br>
+        <input  type="submit" value="Submeter formulário" />
+    </form>
+</body>
+</html> 
