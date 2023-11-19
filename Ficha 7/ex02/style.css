@@ -20,6 +20,7 @@ body {
     max-height: 589;
     margin-top: 16px;
     margin-bottom: 36px;
+    border-right: 500px
 }
 
 .button1 {
@@ -33,4 +34,25 @@ body {
     padding-left: 16px;
     padding-right: 16px;
     border: #EE82EE;
+}
+
+.button2 {
+    color: #EE82EE;
+    font-weight: medium;
+    border: 2px, solid;
+    border-radius: 8px;
+    background-color: transparent;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-color: #EE82EE;
+    border: solid;
+    margin-left: 16px;
+}
+
+.image {
+    width: 465px;
+    margin-left: 700px;
+    margin-right: 20px;
 }
