@@ -1,0 +1,17 @@
+body {
+    background-color: #000000;
+
+}
+
+.container {
+    padding: 80px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    margin-top: 150px;
+}
+
+img {
+    width: 300px;
+}
+

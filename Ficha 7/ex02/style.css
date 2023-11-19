@@ -1,0 +1,36 @@
+body {
+    background-color: #651780;
+    color: #EE82EE;
+    font-family: 'Jost', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+}
+
+.section {
+    padding: 80px;
+}
+
+.header {
+    font-size: 50px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.paragraph {
+    max-height: 589;
+    margin-top: 16px;
+    margin-bottom: 36px;
+}
+
+.button1 {
+    color: #651780;
+    font-weight: medium;
+    border: 2px, solid #EE82EE;
+    border-radius: 8px;
+    background-color: #EE82EE;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border: #EE82EE;
+}
